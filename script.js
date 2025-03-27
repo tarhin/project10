@@ -71,7 +71,7 @@
 
 {
   $('.faq_content .question').click(function(){
-    $(this).next('.answer_wrapper').toggleClass('close');
-    $(this).find('.toggle_button').toggleClass('close'); 
+    $(this).next('.answer_wrapper').toggleClass('open');
+    $(this).find('.toggle_button').toggleClass('open'); 
   });
 }
